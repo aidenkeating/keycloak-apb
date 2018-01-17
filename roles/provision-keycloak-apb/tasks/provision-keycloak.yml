@@ -125,7 +125,7 @@
       service: keycloak-metrics
       mobile: enabled
     annotations:
-      org.feedhenry.mcp/prometheus: "plain"
+      org.aerogear.metrics/plain_endpoint: /metrics
     selector:
       app: keycloak
       service: keycloak-metrics
